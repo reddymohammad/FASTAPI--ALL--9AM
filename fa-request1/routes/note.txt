@@ -1,0 +1,42 @@
+Rest API -1
+________________
+Usage: Fetch All products
+Rest API URL: http://127.0.0.1:8000/products/
+Method Type:GET
+Required Fields:None
+Access Type:Public
+
+Rest API -2
+________________
+Usage: Fetch product by Id
+Rest API URL: http://127.0.0.1:8000/products/10
+Method Type:GET
+Required Fields:None
+Access Type:Public
+
+
+Rest API -3
+________________
+Usage: Fetch product by name
+Rest API URL: http://127.0.0.1:8000/products/Marker Pen
+Method Type:GET
+Required Fields:None
+Access Type:Public
+
+
+Rest API -4
+________________
+Usage: Fetch products by category
+Rest API URL: http://127.0.0.1:8000/products/Marker Pen
+Method Type:GET
+Required Fields:None
+Access Type:Public
+
+
+Rest API -5
+________________
+Usage: Fetch static 
+Rest API URL: http://127.0.0.1:8000/products/stationary
+Method Type:GET
+Required Fields:None
+Access Type:Public
