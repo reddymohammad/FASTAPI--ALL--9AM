@@ -1,0 +1,53 @@
+Rest API End Point : 1
+-------------------------
+usage: Application Root
+Rest API URL: http://127.0.0.1:8000/
+Method Type:GET
+Required Fields:None
+Access Type:Public
+
+Rest API End Point : 2
+-------------------------
+usage: create new employee
+Rest API URL: http://127.0.0.1:8000/emp/create
+Method Type:POST
+Required Fields:eid,ename,esal,gender
+Access Type:Public
+
+
+Rest API End Point : 3
+-------------------------
+usage: fetch all employees
+Rest API URL: http://127.0.0.1:8000/emp/read
+Method Type:GET
+Required Fields:None
+Access Type:Public
+
+
+Rest API End Point : 4
+-------------------------
+usage: fetch employee by eid
+Rest API URL: http://127.0.0.1:8000/emp/read/101
+Method Type:GET
+Required Fields:None
+Access Type:Public
+
+
+
+Rest API End Point : 5
+-------------------------
+usage: update employee by eid
+Rest API URL: http://127.0.0.1:8000/emp/update/101
+Method Type:PUT
+Required Fields:eid,ename,esal,gender
+Access Type:Public
+
+
+
+Rest API End Point : 6
+-------------------------
+usage: delete employee by eid
+Rest API URL: http://127.0.0.1:8000/emp/delete/101
+Method Type:DELETE
+Required Fields:None
+Access Type:Public
